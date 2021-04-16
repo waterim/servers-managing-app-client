@@ -1,0 +1,14 @@
+.dropdownButton{
+    border: none;
+    background: none;
+    color: #A9AEC1;
+    outline: none;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+
+    &:hover{
+        background-color: #F2F3F6;
+    }
+}

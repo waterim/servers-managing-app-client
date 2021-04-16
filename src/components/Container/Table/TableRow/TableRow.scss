@@ -1,0 +1,45 @@
+.tableRow{
+    height: 59px;
+    border-bottom: 3px solid #F2F3F6;
+
+    td:nth-child(2){
+        padding-left: 10px;
+    }
+
+    .statusButton{
+        border: none;
+        background: none;
+        position: relative;
+        cursor: pointer;
+        outline: none;
+
+        &:hover{
+            font-weight: 600;
+        }
+
+        i{
+            position: absolute;
+            left: -15px;
+            top: 2px;
+        }
+
+        .fa-circle{
+            font-size: 7px;
+            top: 7px;
+
+        }
+
+        .fa-times{
+            top: 3px;
+            font-size: 15px;
+            color: #e14366;
+        }
+    }
+
+    .infoButton{
+        text-align: end;
+        padding: 0 26px 0 42px;
+        border-radius: 30px;
+
+    }
+}

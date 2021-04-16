@@ -1,0 +1,76 @@
+.container{
+    margin-top: 42px !important;
+    max-width: 1104px;
+    margin: auto;
+
+    @media screen and (max-width: 1146px){
+        margin: 42px 1rem;
+    }
+
+    .tableHeader{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        .serversInfo{
+            display: flex;
+            flex-direction: column;
+
+            .serverHeader{
+                font-weight: 600;
+                font-size: 21px;
+                margin-bottom: 3px;
+                color: #494E61;
+            }
+
+            .numberOfElements{
+                margin-bottom: 15px;
+                color: #494E61;
+                font-size: 15px;
+            }
+
+        }
+
+        .inputWrapper{
+            position: relative;
+
+            .input{
+                border: 2.5px solid #D4D7E1;
+                background: none;
+                border-radius: 15px;
+                padding: 6px 30px 6px 40px;
+                outline: none;
+
+                &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #A9AEC1;
+                  }
+                &::-moz-placeholder { /* Firefox 19+ */
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #A9AEC1;
+                  }
+                &:-ms-input-placeholder { /* IE 10+ */
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #A9AEC1;
+                  }
+                &:-moz-placeholder { /* Firefox 18- */
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #A9AEC1;
+                  }
+            }
+
+            .fa-search{
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                color: #A9AEC1;
+            }
+        }
+
+    }
+}
