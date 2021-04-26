@@ -6,7 +6,7 @@ const NavBar = () => {
         <header className="header">
             <div className="recruitmentContainer">
                 <div className="elips-1"/>
-                <h4 className="recruitmentHeader">Recruitment task</h4>
+                <h4 className="recruitmentHeader">Server managing app</h4>
             </div>
         </header>
     );
