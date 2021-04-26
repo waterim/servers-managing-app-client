@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Container.scss';
-import axios from 'axios';
+import axios from '../../api/axios-instance'
 
 import Table from './Table/Table';
 
